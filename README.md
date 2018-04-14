@@ -1,4 +1,4 @@
-To clone for use in Unreal Engine.
+To clone for use in Unreal Engine:
 1) Make a new Third Person example project
 2) In the editor click on "Source Control" -> "Initialize Git"
 3) Close Unreal
