@@ -6,7 +6,9 @@ To clone for use in Unreal Engine:
   
        git remote add origin https://github.com/kevprakash/BridgeBound.git
   
-       git pull
+       git fetch --all
+       
+       git reset --hard origin/master
   
 5) Once you do that, open up your project again. It may ask if you want to import changes, say yes if it does.
 6) You should be up to date with the project.
