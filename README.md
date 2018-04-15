@@ -12,3 +12,5 @@ To clone for use in Unreal Engine:
 4) Close Unreal
 5) Copy all the files from the intial folder you made into your project folder, overriding all files when asked
 6) Open up the project and go to "Source Control" -> Set the type to Git and hit accept
+
+IMPORTANT: DO NOT ADD OR COMMIT FROM CMD ONLY USE THE EDITOR TO ADD AND COMMIT CHANGES. You have to push from cmd though.
