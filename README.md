@@ -1,14 +1,14 @@
 To clone for use in Unreal Engine:
-1) Make a new Third Person example project
-2) In the editor click on "Source Control" -> "Initialize Git"
-3) Close Unreal
-4) In the folder with the .gitignore file (your main project folder), open up command line and run:
-  
-       git remote add origin https://github.com/kevprakash/BridgeBound.git
-  
-       git fetch --all
-       
-       git reset --hard origin/master
-  
-5) Once you do that, open up your project again. It may ask if you want to import changes, say yes if it does.
-6) You should be up to date with the project.
+
+1) Make an empty folder (anywhere, you can do it on your desktop if convenient)
+2) In the folder, open cmd or gitbash and run:
+
+     git init
+     
+     git remote add origin https://github.com/kevprakash/BridgeBound.git
+     
+     git pull origin master
+3) Once you do that, make a new third person example project in Unreal (version 4.16)
+4) Close Unreal
+5) Copy all the files from the intial folder you made into your project folder, overriding all files when asked
+6) Open up the project and go to "Source Control" -> Set the type to Git and hit accept
