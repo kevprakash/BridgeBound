@@ -14,3 +14,5 @@ To clone for use in Unreal Engine:
 6) Open up the project and go to "Source Control" -> Set the type to Git and hit accept
 
 IMPORTANT: DO NOT ADD OR COMMIT FROM CMD ONLY USE THE EDITOR TO ADD AND COMMIT CHANGES. You have to push from cmd though.
+
+If you experience an error when pulling and it says you have uncommited changes, DO NOT commit/stash the files. Just delete those files and pull the latest version.
