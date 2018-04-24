@@ -16,4 +16,6 @@ To clone for use in Unreal Engine:
 
 IMPORTANT: DO NOT ADD OR COMMIT FROM CMD ONLY USE THE EDITOR TO ADD AND COMMIT CHANGES. You have to push from cmd though.
 
+DO NOT add or commit files that were not changed from the base. In general, if there is a "?" on the asset and it's not in the "MyStuff" folder, do not add or commit it.
+
 If you experience an error when pulling and it says you have uncommited changes, DO NOT commit/stash the files. Just delete those files and pull the latest version.
